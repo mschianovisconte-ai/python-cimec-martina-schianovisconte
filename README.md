@@ -1,5 +1,8 @@
 # python-cimec-martina-schianovisconte
 Work Protocol for Image Processing
+
+The project consists of setting a protocol in order to automatize images processing. in this case we are going to analize cerebellum slices acquired on confocal microscope focusing our attention to the number and branching of microglia cells. The aim is to automatize in particular processes such as Cell counting and Sholl analysis.
+
 Step 1: Set Scale
 
 Setting the scale for images is an important step in image processing because it establishes a conversion factor between the pixel measurements in the image and real-world measurements. This allows for accurate measurements and analysis of objects in the image using known distances or units.
