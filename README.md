@@ -1,5 +1,4 @@
-# python-cimec-martina-schianovisconte
-Work Protocol for Image Processing
+# Work Protocol for Image Processing
 
 The project consists of setting a protocol in order to automatize images processing. in this case we are going to analize cerebellum slices acquired on confocal microscope focusing our attention to the number and branching of microglia cells. The aim is to automatize in particular processes such as Cell counting and Sholl analysis.
 
