@@ -1,0 +1,32 @@
+Expected Automatic Saving of Results
+The following files for sholl analysis are automatically saved inside Results/[filename]/:
+Skeleton Analysis Outputs:
+
+SA_Results_[filename].csv (Results table)
+SA_Branch_Info_[filename].csv (Branch information)
+[filename]-1-labeled-skeleton.tif
+[filename]_Tagged-Skeleton.tif
+
+Sholl Analysis Outputs:
+Sholl_[filename].csv
+Sholl_[filename].tif
+
+Region of Interest (ROI) Image:
+[filename]-ROI.tif (This image remains open after analysis.)
+ 
+Example folder structure:
+Results/
+   ├── 7856-1/
+   │   ├── SA_Results_7856-1.csv
+   │   ├── SA_Branch_Info_7856-1.csv
+   │   ├── 7856-1-labeled-skeleton.tif
+   │   ├── 7856-1_Tagged-Skeleton.tif
+   │   ├── Sholl_7856-1.csv
+   │   ├── Sholl_7856-1.tif
+   │   ├── 7856-1-ROI.tif
+
+The following files will be saved automatically in a Counting Results folder:
+
+Masked Image (_masked.tif) showing detected microglia
+ROI File (_rois.zip) containing the refined ROIs
+Measurement Results (_results.csv) with area and count data
